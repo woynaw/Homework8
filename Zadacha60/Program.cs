@@ -22,7 +22,7 @@ void Random3DArrayNoDuplicates(int[,,] arg)
     int[] array = new int[8];
     int rand;
     int pos = 0;
-    for (int i = 0; i < temp.GetLength(0); i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
         array[i] = new Random().Next(10, 99 + 1);
         rand = array[i];
